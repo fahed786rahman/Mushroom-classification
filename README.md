@@ -1,1 +1,4 @@
 # Mushroom-classification
+When researchers create new methods they typically test their performance on data sets people have looked at before, so that the prediction accuracy can be benchmarked against existing methods. This means that certain data sets appear time and time again in research. One of these is the famous ‘mushroom data set’: a set of observations about different specimens of gilled mushrooms in The Audubon Society Field Guide to North American Mushrooms (1981). Each specimen is measured in terms of some visual and olfactory information, such as its Cap Size and its Odor type. They are also labelled as being edible or poisonous. Our goal is to determine whether a mushroom is edible from its characteristics.
+
+There are 6 attributes in the data, all of which are factors (non-numeric categorical variables). These are: Edible (to be predicted), CapShape, CapSurface, CapColor, Odor and Height.
